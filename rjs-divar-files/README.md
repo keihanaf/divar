@@ -64,8 +64,8 @@ src/
 1. Clone the frontend repository:
 
 ```bash
-git clone https://github.com/yourusername/divar-clone-frontend.git
-cd divar-clone-frontend
+git clone https://github.com/keihanaf/rjs-divar-files.git
+cd rjs-divar-files
 ```
 
 2. Install dependencies:
@@ -77,8 +77,8 @@ npm install
 3. Clone and set up the backend repository:
 
 ```bash
-git clone https://github.com/yourusername/divar-clone-backend.git
-cd divar-clone-backend
+git clone https://github.com/keihanaf/rjs-divar-api.git
+cd rjs-divar-api
 npm install
 ```
 

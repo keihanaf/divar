@@ -9,7 +9,7 @@ This is the frontend repository of the Divar clone project. To run the applicati
 1. Clone and run the backend repository first:
 
 ```bash
-git clone https://github.com/yourusername/rjs-divar-api.git
+git clone https://github.com/keihanaf/rjs-divar-api.git
 cd rjs-divar-api
 npm install
 npm start
@@ -20,17 +20,8 @@ npm start
 3. Then clone and run this frontend repository:
 
 ```bash
-git clone https://github.com/yourusername/rjs-divar-frontend.git
-cd rjs-divar-frontend
-npm install
-npm start
-```
-2. The backend server will run on `http://localhost:3400`
-
-3. Then clone and run this frontend repository:
-```bash
 # Clone the frontend repository
-git clone https://github.com/yourusername/rjs-divar.git
+git clone https://github.com/keihanaf/rjs-divar-files.git
 
 # Navigate to project directory
 cd rjs-divar
