@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3e2e7;
+    height: 100vh;
+    background-size: cover;
+}
+
+.container svg {
+    max-width: 696px;
+    margin-bottom: 8px;
+}
+
+.container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container p {
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-align: center;
+    color: #4b5563;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.container a {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    color: #3b82f6;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #e0f2fe;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container a:hover {
+    background-color: #3b82f6;
+    color: white;
+}

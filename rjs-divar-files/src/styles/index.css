@@ -1,0 +1,63 @@
+:root {
+  font-family: "Vazir", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  --background-light: #ffffff;
+  --text-light: #333333;
+  --border-light: #eaeaea;
+  --shadow-light: rgba(0, 0, 0, 0.1);
+  --price-light: #e74c3c;
+  --city-light: #7f8c8d;
+
+  --background-dark: #1a1a1a;
+  --text-dark: #f0f0f0;
+  --border-dark: #444444;
+  --shadow-dark: rgba(255, 255, 255, 0.1);
+  --price-dark: #ff6b6b;
+  --city-dark: #bdc3c7;
+}
+
+body {
+  margin: auto;
+  max-width: 1600px;
+  min-height: 100vh;
+  padding: 10px;
+  background-color: var(--background-color);
+  transition: background-color 0.3s ease;
+  color: var(--text-light);
+}
+
+body.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+  --background-color: #1a1a1a;
+  --card-background: #2c2c2c;
+  --border-color: #444444;
+  --shadow-color: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .header {
+  background-color: #222;
+}

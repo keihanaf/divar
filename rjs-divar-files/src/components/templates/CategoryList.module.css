@@ -1,0 +1,39 @@
+.list {
+    margin: 50px 0 70px;
+}
+
+.list div {
+    display: flex;
+    margin: 20px 0;
+    padding: 15px;
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+}
+
+.list h5 {
+    margin-right: 10px;
+    font-size: 0.9rem;
+    width: 120px;
+}
+
+.list p {
+    width: 10%;
+    text-align: left;
+    color: #a62626;
+}
+
+.list button {
+    background-color: #a62626;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 5px 20px;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.list button:hover {
+    background-color: #841e1e;
+    transition: 0.3s;
+}

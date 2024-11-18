@@ -1,0 +1,37 @@
+.form h3 {
+    margin-bottom: 30px;
+    border-bottom: 3px solid #a62626;
+    width: fit-content;
+    padding-bottom: 5px;
+}
+
+.form label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.form input,
+.form select,
+.form textarea {
+    display: block;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.form textarea {
+    height: 100px;
+}
+
+.form button {
+    background-color: #a62626;
+    color: #ffffff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}

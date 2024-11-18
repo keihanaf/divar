@@ -1,0 +1,40 @@
+.list h3 {
+    margin: 60px 0 30px;
+    border-bottom: 3px solid #a62626;
+    width: fit-content;
+    padding-bottom: 5px;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.post img {
+    width: 100px;
+    height: 70px;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+
+.post div {
+    width: 100%;
+}
+
+.post p {
+    font-size: 0.9rem;
+}
+
+.post span {
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.post .price {
+    width: 150px;
+    text-align: center;
+}
